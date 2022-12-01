@@ -1,0 +1,516 @@
+[
+  {
+    "name": "Brandy",
+    "admNo": 23020,
+    "parent": "",
+    "schoolName": "Kibabii",
+    "classes": [
+      {
+        "className": "grade 1",
+        "subjects": [
+          {
+            "name": "English",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maths",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "scie",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ss",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "className": "grade 1",
+        "subjects": [
+          {
+            "name": "English",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maths",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "scie",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ss",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dob": "27/07/2014",
+    "fathersName": "John Doe",
+    "motherName": "Jane Doe",
+    "nemisNumber": 404930,
+    "talent": "swimming, dancing",
+    "gender": "M",
+    "homeAddress": "Kisumu"
+  },
+  {
+    "name": "Deno",
+    "admNo": 23020,
+    "parent": "",
+    "schoolName": "Kibabii",
+    "classes": [
+      {
+        "className": "grade 1",
+        "subjects": [
+          {
+            "name": "English",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maths",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "scie",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ss",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "className": "grade 1",
+        "subjects": [
+          {
+            "name": "English",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maths",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "scie",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ss",
+            "strands": [
+              {
+                "strandName": "Strand 1",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 1"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 2",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 2"
+                  }
+                ]
+              },
+              {
+                "strandName": "Strand 3",
+                "subStrands": [
+                  {
+                    "substrandName": "sub-strand 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dob": "27/07/2014",
+    "fathersName": "John Doe",
+    "motherName": "Jane Doe",
+    "nemisNumber": 404930,
+    "talent": "swimming, dancing",
+    "gender": "M",
+    "homeAddress": "Kisumu"
+  }
+]

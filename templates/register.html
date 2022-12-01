@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="auth">
+        <img src="{% static 'img/logo.png' %}" alt="">
+        <h3>Kurasa Account Register</h3>
+        {% include 'messages.html' %}
+        <form action="{% url 'register-page' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="client_id" id="client_id" value="{{ fieldValues.client_id }}">
+            <input type="hidden" name="scope" id="scope" value="{{ fieldValues.scope }}">
+            <input type="hidden" name="redirect_uri" id="redirect_uri" value="{{ fieldValues.redirect_uri }}">
+            <input type="hidden" name="response_type" id="response_type" value="{{ fieldValues.response_type }}">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" class="form-control" value="{{ fieldValues.email }}"
+                       placeholder="Enter email address">
+            </div>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" value="{{ fieldValues.username }}"
+                       placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="text" name="phone" class="form-control" value="{{ fieldValues.phone }}"
+                       placeholder="Enter phone number">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control">
+            </div>
+            <button class="btn btn-block btn-primary" type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="" id="login-url">Login</a></p>
+        <p>Forgot password? <a href="" id="forgot-url">Reset Account</a></p>
+    </div>
+{% endblock %}

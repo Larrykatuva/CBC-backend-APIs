@@ -1,0 +1,29 @@
+image: python:latest
+
+dev:
+  environment:
+    name: dev
+
+  only:
+    - dev
+
+
+  # This folder is cached between builds
+  # https://docs.gitlab.com/ee/ci/yaml/index.html#cache
+  cache:
+    paths:
+      - ~/.cache/pip/
+
+  before_script:
+      - sudo apt-get update -qq
+      - sudo apt-get install -qq git
+
+  # This is a basic example for a gem or script which doesn't use
+  # services such as redis or postgres
+  script:
+    - python3 -m venv venv
+    - source venv/bin/activate
+    # Uncomment next line if your Django app needs a JS runtime:
+    # - apt-get update -q && apt-get install nodejs -yqq
+    - pip install -r requirements.txt
+    - python manage.py test main.tests -v 2

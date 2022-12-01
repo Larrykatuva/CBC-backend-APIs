@@ -1,0 +1,11 @@
+Django==4.0.2
+djangorestframework==3.13.1
+djangorestframework_simplejwt==5.1.0
+drf_yasg==1.20.0
+pytest==7.1.2
+pytest_django==4.5.2
+pytest_cov==3.0.0
+django-environ==0.8.1
+django-cors-headers==3.11.0
+django-filter==21.1
+psycopg2==2.9.3

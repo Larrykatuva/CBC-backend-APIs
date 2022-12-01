@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="auth">
+        <h3>Verify Account</h3>
+        {% include 'messages.html' %}
+        <form action="{% url 'verify-page' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="client_id" id="client_id" value="{{ fieldValues.client_id }}">
+            <input type="hidden" name="scope" id="scope" value="{{ fieldValues.scope }}">
+            <input type="hidden" name="redirect_uri" id="redirect_uri" value="{{ fieldValues.redirect_uri }}">
+            <input type="hidden" name="response_type" id="response_type" value="{{ fieldValues.response_type }}">
+            <div class="form-group">
+                <label>Code</label>
+                <input type="text" name="code" class="form-control" value="{{ fieldValues.code }}"
+                       placeholder="Enter verification code">
+            </div>
+            <button class="btn btn-block btn-primary" type="submit">Verify</button>
+        </form>
+        <p>Didn't get verification code? <a href="" id="request-verify-url">Request Code</a></p>
+    </div>
+{% endblock %}

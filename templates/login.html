@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="auth">
+        <h3>Account Login</h3>
+        {% include 'messages.html' %}
+        <form action="{% url 'login-page' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="client_id" id="client_id" value="{{fieldValues.client_id}}">
+            <input type="hidden" name="scope" id="scope" value="{{fieldValues.scope}}">
+            <input type="hidden" name="redirect_uri" id="redirect_uri" value="{{ fieldValues.redirect_uri }}">
+            <input type="hidden" name="response_type" id="response_type" value="{{ fieldValues.response_type }}">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" value="{{fieldValues.username}}">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control">
+            </div>
+            <button class="btn btn-block btn-primary" type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="" id="register-url">Register</a></p>
+        <p>Forgot password? <a href="" id="forgot-url">Reset Account</a></p>
+    </div>
+{% endblock %}
